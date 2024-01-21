@@ -36,19 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.cards-container {
-  display: flex;
-  justify-content: center; /* Center the items on the main-axis (horizontally) */
-  align-items: center; /* Center the items on the cross-axis (vertically) */
-  gap: 86px; /* 86 pixels gap between each item */
-  height: 100vh; /* Full height of the viewport */
-  padding: 0 43px; /* Padding to ensure the content is within the screen */
-}
-
-/* Apply this style to the body or a main container div to remove default margins */
-body, .main-container {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
