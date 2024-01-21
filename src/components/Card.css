@@ -1,0 +1,50 @@
+/* Card.css */
+.cards-container {
+    display: flex; /* Use flexbox to layout children horizontally */
+    justify-content: center; /* Center the cards horizontally */
+    align-items: center; /* Align the cards vertically */
+    gap: 86px; /* Space between each card */
+  }
+.course-card {
+    width: 192px; /* Fixed width */
+    height: 192px; /* Fixed height, making it a square */
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, opacity 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* Ensures nothing spills outside the border-radius */
+    cursor: pointer; /* Indicates the card is clickable */
+  }
+
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card:hover .course-title {
+  opacity: 1;
+}
+
+.course-card img {
+  max-width: 100%; /* Ensures the image does not exceed the card size */
+  max-height: 100%;
+  transition: opacity 0.2s;
+}
+
+.course-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none; /* Prevents mouse events on the title */
+}
