@@ -4,7 +4,7 @@
 const initialDetails = [
     {
       id: 1,
-      imgPath: "/assets/img/his.webp",
+      imgPath: "/assets/img/1.png",
       name: "Quiz 1",
     },
     {
