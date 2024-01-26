@@ -1,0 +1,8 @@
+
+
+#hiding {
+    visibility: hidden;
+}
+#reveal {
+    visibility: visible;
+}

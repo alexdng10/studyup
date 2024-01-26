@@ -1,0 +1,25 @@
+question-block {
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+.options .option {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.options .option.selected {
+    background-color: #d0e0f0;
+}
+
+.correct-answer {
+    color: green;
+    font-weight: bold;
+}
